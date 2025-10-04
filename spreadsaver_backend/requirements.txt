@@ -1,0 +1,64 @@
+# Core
+typer
+fastapi
+uvicorn
+httpx
+httptools
+python-dotenv
+python-jose
+passlib
+passlib[bcrypt]
+psycopg2-binary
+
+# Optional tools & CLI
+click
+colorama
+packaging
+
+# Data/Parsing
+pydantic
+pydantic-core
+pydantic-settings
+email-validator
+pyyaml
+
+# Background / scheduling
+anyio
+
+# SQLite + PostgreSQL & Testing
+sqlalchemy
+sqlmodel
+pytest
+
+# Utilities and config deps
+certifi
+charset-normalizer
+idna
+h11
+pyasn1
+rsa
+setuptools
+sniffio
+urllib3
+wheel
+
+# Stripe integration
+stripe
+
+# Web server
+starlette
+
+# Crypto, Security, Serialization
+bcrypt
+cffi
+cryptography
+ecdsa
+
+# Testing / Dev tools
+iniconfig
+pluggy
+
+# Additional deps
+annotated-types
+greenlet
+pycparser

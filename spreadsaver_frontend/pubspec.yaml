@@ -1,0 +1,40 @@
+name: spreadsaver_frontend
+description: A community budgeting app tailored to help users manage their finanicial goals and priorities.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_secure_storage: ^9.0.0
+
+  # Core UI
+  cupertino_icons: ^1.0.2
+
+  # State Management (optional, prep for Provider)
+  provider: ^6.1.2
+
+  # Date and Time Utilities
+  intl: ^0.19.0
+
+  # HTTP (for API services)
+  http: ^1.2.1
+
+  # Preferences
+  shared_preferences: ^2.5.3
+
+  url_launcher: ^6.3.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
